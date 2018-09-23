@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.summary = "Spoonacular-gem"
   s.description = "gem for the Spoonacular API"
   s.authors = ["Daniel Woznicki"]
-  s.email = 'daniel.woznicki@gmail.com'
+  s.email = 'daniel.woznicki@gmail.com, rahul.baxi@gmail.com'
   s.files = Dir["lib/**/*"]
-  s.homepage = 'http://rubygems.org/gems/spoonacular'
+  s.homepage = 'https://github.com/dwoznicki/spoonacular'
   s.license = 'MIT'
 
   s.add_runtime_dependency 'unirest', '~> 1.1', '>= 1.1.2'
