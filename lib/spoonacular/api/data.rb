@@ -15,5 +15,11 @@ module Spoonacular
 			return response
 		end
 	end
-	
+
+	def get_food_information(id, amount, unit)
+		method = "/food/ingredients/#{id}/information?amount=#{amount}, unit=#{unit}"
+		uri = Spoonacular.build_endpoint(method, "")
+		response = Spoonacular.get({key: @key, uri: uri})
+	end
+
 end
